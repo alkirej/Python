@@ -23,15 +23,18 @@ def get_words(filename: str):  # returns tuple of unknown length - all strings.
 
     stripped_results = []
     for s in results:
-        stripped_results += s.strip()
+        stripped_str = s.strip()
+        if "" != stripped_str:
+            stripped_results.append( s.strip() )
 
     return tuple(stripped_results)
 
 # read words to use from disk.
-articles = get_words("articles.txt") # ("A", "THE")
-nouns = get_words("nouns.txt") # ("BOY", "GIRL", "BAT", "BALL")
-verbs = get_words("verbs.txt") # ("HIT", "SAW", "LIKED")
-prepositions = get_words("prepositions.txt") # ("WITH", "BY")
+articles = get_words("articles.txt")
+nouns = get_words("nouns.txt")
+verbs = get_words("verbs.txt")
+prepositions = get_words("prepositions.txt")
+
 
 def sentence():
     """Builds and returns a sentence."""
