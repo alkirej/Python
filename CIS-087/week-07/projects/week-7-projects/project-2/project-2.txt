@@ -1,0 +1,7 @@
+This is the first line in the file.
+It is followed by the second,
+third,
+forth,
+and fith lines.
+And this will be the last line.
+
