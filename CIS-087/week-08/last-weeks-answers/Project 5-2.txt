@@ -1,0 +1,7 @@
+Jim likes to bike.
+Jim likes to hike.
+Jim likes to eat.
+Jim likes to sleep.
+Jim likes Python.
+Mr. Powell likes C++.
+Mr. Powell likes Visual Basic. 

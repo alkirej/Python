@@ -103,7 +103,7 @@ def add_poster( dir_name: str, video_name: str ) -> None:
     """
     new_filename = dir_name + os.sep + video_name + POSTER_EXTENSION
     log_add_poster( new_filename )
-    # shutil.copyfile(POSTER_FILENAME, new_filename )
+    shutil.copyfile(POSTER_FILENAME, new_filename )
 
 def process_dir( dir_name: str ) -> None:
     """
