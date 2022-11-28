@@ -34,11 +34,7 @@ class Bank:
 
     def __str__(self):
         """Returns the string representation of the bank."""
-        accts = self.accounts.values()
-        acct_list = list(accts)
-        acct_list.sort()
-
-        return "\n\n".join(map(str, acct_list))
+        return "\n".join(map(str, self.accounts.values()))
 
     def makeKey(self, name, pin):
         """Returns a key for the account."""
@@ -88,14 +84,6 @@ class Bank:
             pickle.dump(account, fileObj)
         fileObj.close()
 
-    def total_assets(self):
-        """Return the total amount of all bank account in the bank."""
-        return_val = 0
-        for account in self.accounts.values():
-            return_val += account.getBalance()
-        return return_val
-
-
 # Functions for testing
        
 def createBank(numAccounts = 1):
@@ -126,20 +114,11 @@ def testAccount():
     print(account.withdraw(100000))
     print("Expect 500:", account.getBalance())
 
-def test_sum():
-    """Test fn for get total assets in bank fn."""
-    bnk = createBank(5)
-    print(bnk)
-    total = bnk.total_assets()
-    print(total)
-
 def main(number = 10, fileName = None):
     """Creates and prints a bank, either from
     the optional file name argument or from the optional
     number."""
-    # testAccount()
-    test_sum()
-
+    testAccount()
 ##    if fileName:
 ##        bank = Bank(fileName)
 ##    else:

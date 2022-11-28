@@ -58,23 +58,3 @@ class SavingsAccount:
         self.deposit(interest)
         return interest
 
-    def __eq__(self, other):
-        """
-        Compare 2 accounts.  Accounts are the same if they have the same
-        user name and pin (which subs in for an account #)
-        """
-        return( self.name == other.name and self.pin == other.pin)
-
-    def __lt__(self, other):
-        """Compare 2 accounts"""
-        if self.name == other.name:
-            return self.pin < other.pin
-        else:
-            return self.name < other.name
-
-    def __ge__(self, other):
-        """Compare 2 accounts"""
-        if self.name >= other.name:
-            return self.pin >= other.pin
-        else:
-            return self.name >= other.name

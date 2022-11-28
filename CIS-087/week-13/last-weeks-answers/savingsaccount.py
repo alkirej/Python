@@ -7,7 +7,7 @@ class SavingsAccount:
     """This class represents a savings account
     with the owner's name, PIN, and balance."""
 
-    RATE = 0.02    # Single rate for all accounts
+    RATE = 0.02
 
     def __init__(self, name, pin, balance = 0.0):
         self.name = name
@@ -15,7 +15,6 @@ class SavingsAccount:
         self.balance = balance
 
     def __str__(self):
-        """Returns the string rep."""
         result =  'Name:    ' + self.name + '\n' 
         result += 'PIN:     ' + self.pin + '\n' 
         result += 'Balance: ' + str(self.balance)
@@ -58,23 +57,3 @@ class SavingsAccount:
         self.deposit(interest)
         return interest
 
-    def __eq__(self, other):
-        """
-        Compare 2 accounts.  Accounts are the same if they have the same
-        user name and pin (which subs in for an account #)
-        """
-        return( self.name == other.name and self.pin == other.pin)
-
-    def __lt__(self, other):
-        """Compare 2 accounts"""
-        if self.name == other.name:
-            return self.pin < other.pin
-        else:
-            return self.name < other.name
-
-    def __ge__(self, other):
-        """Compare 2 accounts"""
-        if self.name >= other.name:
-            return self.pin >= other.pin
-        else:
-            return self.name >= other.name
