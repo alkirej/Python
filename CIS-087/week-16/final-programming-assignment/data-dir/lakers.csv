@@ -1,0 +1,76 @@
+Season,League,Team,W,L,Win %,Playoff Result,Coach(es),Top Player
+1947-48,NBL,Minneapolis Lakers,43,17,.717,Won Finals,???,George Mikan
+1948-49,BAA,Minneapolis Lakers,44,16,.733,Won Finals,J. Kundla (44-16),G. Mikan
+1949-50,NBA,Minneapolis Lakers,51,17,.750,Won Finals,J. Kundla (51-17),G. Mikan
+1950-51,NBA,Minneapolis Lakers,44,24,.647,Lost W. Div. Finals,J. Kundla (44-24),G. Mikan
+1951-52,NBA,Minneapolis Lakers,40,26,.606,Won Finals,J. Kundla (40-26),G. Mikan
+1952-53,NBA,Minneapolis Lakers,48,22,.686,Won Finals,J. Kundla (48-22),G. Mikan
+1953-54,NBA,Minneapolis Lakers,46,26,.639,Won Finals,J. Kundla (46-26),G. Mikan
+1954-55,NBA,Minneapolis Lakers,40,32,.556,Lost W. Div. Finals,J. Kundla (40-32),V. Mikkelsen
+1955-56,NBA,Minneapolis Lakers,33,39,.458,Lost W. Div. Semis,J. Kundla (33-39),C. Lovellette
+1956-57,NBA,Minneapolis Lakers,34,38,.472,Lost W. Div. Finals,J. Kundla (34-38),C. Lovellette
+1957-58,NBA,Minneapolis Lakers,19,53,.264,4,,G. Mikan (9-30)-J. Kundla (10-23),V. Mikkelsen
+1958-59,NBA,Minneapolis Lakers,33,39,.458,Lost Finals,J. Kundla (33-39),E. Baylor
+1959-60,NBA,Minneapolis Lakers,25,50,.333,Lost W. Div. Finals,J. Castellani (11-25)-J. Pollard (14-25),E. Baylor
+1960-61,NBA,Los Angeles Lakers,36,43,.456,Lost W. Div. Finals,F. Schaus (36-43),E. Baylor
+1961-62,NBA,Los Angeles Lakers,54,26,.675,Lost Finals,F. Schaus (54-26),J. West
+1962-63,NBA,Los Angeles Lakers,53,27,.663,Lost Finals,F. Schaus (53-27),E. Baylor
+1963-64,NBA,Los Angeles Lakers,42,38,.525,Lost W. Div. Semis,F. Schaus (42-38),J. West
+1964-65,NBA,Los Angeles Lakers,49,31,.613,Lost Finals,F. Schaus (49-31),J. West
+1965-66,NBA,Los Angeles Lakers,45,35,.563,Lost Finals,F. Schaus (45-35),J. West
+1966-67,NBA,Los Angeles Lakers,36,45,.444,Lost W. Div. Semis,F. Schaus (36-45),J. West
+1967-68,NBA,Los Angeles Lakers,52,30,.634,Lost Finals,B. van Breda Kolff (52-30),J. West
+1968-69,NBA,Los Angeles Lakers,55,27,.671,Lost Finals,B. van Breda Kolff (55-27),W. Chamberlain
+1969-70,NBA,Los Angeles Lakers,46,36,.561,Lost Finals,J. Mullaney (46-36),J. West
+1970-71,NBA,Los Angeles Lakers,48,34,.585,Lost W. Conf. Finals,J. Mullaney (48-34),J. West
+1971-72,NBA,Los Angeles Lakers,69,13,.841,Won Finals,B. Sharman (69-13),W. Chamberlain
+1972-73,NBA,Los Angeles Lakers,60,22,.732,Lost Finals,B. Sharman (60-22),W. Chamberlain
+1973-74,NBA,Los Angeles Lakers,47,35,.573,Lost W. Conf. Semis,B. Sharman (47-35),H. Hairston
+1974-75,NBA,Los Angeles Lakers,30,52,.366,,B. Sharman (30-52),H. Hairston
+1975-76,NBA,Los Angeles Lakers,40,42,.488,,B. Sharman (40-42),K. Abdul-Jabbar
+1976-77,NBA,Los Angeles Lakers,53,29,.646,Lost W. Conf. Finals,J. West (53-29),K. Abdul-Jabbar
+1977-78,NBA,Los Angeles Lakers,45,37,.549,Lost W. Conf. 1st Rnd.,J. West (45-37),K. Abdul-Jabbar
+1978-79,NBA,Los Angeles Lakers,47,35,.573,Lost W. Conf. Semis,J. West (47-35),K. Abdul-Jabbar
+1979-80,NBA,Los Angeles Lakers,60,22,.732,Won Finals,J. McKinney (10-4)-P. Westhead (50-18),K. Abdul-Jabbar
+1980-81,NBA,Los Angeles Lakers,54,28,.659,Lost W. Conf. 1st Rnd.,P. Westhead (54-28),K. Abdul-Jabbar
+1981-82,NBA,Los Angeles Lakers,57,25,.695,Won Finals,P. Westhead (7-4)-P. Riley (50-21),M. Johnson
+1982-83,NBA,Los Angeles Lakers,58,24,.707,Lost Finals,P. Riley (58-24),M. Johnson
+1983-84,NBA,Los Angeles Lakers,54,28,.659,Lost Finals,P. Riley (54-28),M. Johnson
+1984-85,NBA,Los Angeles Lakers,62,20,.756,Won Finals,P. Riley (62-20),M. Johnson
+1985-86,NBA,Los Angeles Lakers,62,20,.756,Lost W. Conf. Finals,P. Riley (62-20),M. Johnson
+1986-87,NBA,Los Angeles Lakers,65,17,.793,Won Finals,P. Riley (65-17),M. Johnson
+1987-88,NBA,Los Angeles Lakers,62,20,.756,Won Finals,P. Riley (62-20),M. Johnson
+1988-89,NBA,Los Angeles Lakers,57,25,.695,Lost Finals,P. Riley (57-25),M. Johnson
+1989-90,NBA,Los Angeles Lakers,63,19,.768,Lost W. Conf. Semis,P. Riley (63-19),M. Johnson
+1990-91,NBA,Los Angeles Lakers,58,24,.707,Lost Finals,M. Dunleavy (58-24),M. Johnson
+1991-92,NBA,Los Angeles Lakers,43,39,.524,Lost W. Conf. 1st Rnd.,M. Dunleavy (43-39),A. Green
+1992-93,NBA,Los Angeles Lakers,39,43,.476,Lost W. Conf. 1st Rnd.,R. Pfund (39-43),A. Green
+1993-94,NBA,Los Angeles Lakers,33,49,.402,,R. Pfund (27-37)-B. Bertka (1-1)-M. Johnson (5-11),V. Divac
+1994-95,NBA,Los Angeles Lakers,48,34,.585,Lost W. Conf. Semis,D. Harris (48-34),V. Divac
+1995-96,NBA,Los Angeles Lakers,53,29,.646,Lost W. Conf. 1st Rnd.,D. Harris (53-29),C. Ceballos
+1996-97,NBA,Los Angeles Lakers,56,26,.683,Lost W. Conf. Semis,D. Harris (56-26),E. Jones
+1997-98,NBA,Los Angeles Lakers,61,21,.744,Lost W. Conf. Finals,D. Harris (61-21),S. O'Neal
+1998-99,NBA,Los Angeles Lakers,31,19,.620,Lost W. Conf. Semis,D. Harris (6-6)-B. Bertka (1-0)-K. Rambis (24-13),S. O'Neal
+1999-00,NBA,Los Angeles Lakers,67,15,.817,Won Finals,P. Jackson (67-15),S. O'Neal
+2000-01,NBA,Los Angeles Lakers,56,26,.683,Won Finals,P. Jackson (56-26),S. O'Neal
+2001-02,NBA,Los Angeles Lakers,58,24,.707,Won Finals,P. Jackson (58-24),S. O'Neal
+2002-03,NBA,Los Angeles Lakers,50,32,.610,Lost W. Conf. Semis,P. Jackson (50-32),K. Bryant
+2003-04,NBA,Los Angeles Lakers,56,26,.683,Lost Finals,P. Jackson (56-26),K. Bryant
+2004-05,NBA,Los Angeles Lakers,34,48,.415,,R. Tomjanovich (24-19)-F. Hamblen (10-29),K. Bryant
+2005-06,NBA,Los Angeles Lakers,45,37,.549,Lost W. Conf. 1st Rnd.,P. Jackson (45-37),K. Bryant
+2006-07,NBA,Los Angeles Lakers,42,40,.512,Lost W. Conf. 1st Rnd.,P. Jackson (42-40),K. Bryant
+2007-08,NBA,Los Angeles Lakers,57,25,.695,Lost Finals,P. Jackson (57-25),K. Bryant
+2008-09,NBA,Los Angeles Lakers,65,17,.793,Won Finals,P. Jackson (65-17),P. Gasol
+2009-10,NBA,Los Angeles Lakers,57,25,.695,Won Finals,P. Jackson (57-25),P. Gasol
+2010-11,NBA,Los Angeles Lakers,57,25,.695,Lost W. Conf. Semis,P. Jackson (57-25),P. Gasol
+2011-12,NBA,Los Angeles Lakers,41,25,.621,Lost W. Conf. Semis,M. Brown (41-25),P. Gasol
+2012-13,NBA,Los Angeles Lakers,45,37,.549,Lost W. Conf. 1st Rnd.,M. Brown (1-4)-B. Bickerstaff (4-1)-M. D'Antoni (40-32),K. Bryant
+2013-14,NBA,Los Angeles Lakers,27,55,.329,,M. D'Antoni (27-55),J. Meeks
+2014-15,NBA,Los Angeles Lakers,21,61,.256,,B. Scott (21-61),E. Davis
+2015-16,NBA,Los Angeles Lakers,17,65,.207,,B. Scott (17-65),L. Williams
+2016-17,NBA,Los Angeles Lakers,26,56,.317,,L. Walton (26-56),L. Williams
+2017-18,NBA,Los Angeles Lakers,35,47,.427,,L. Walton (35-47),J. Randle
+2018-19,NBA,Los Angeles Lakers,37,45,.451,,L. Walton (37-45),L. James
+2019-20,NBA,Los Angeles Lakers,52,19,.732,Won Finals,F. Vogel (52-19),A. Davis
+2020-21,NBA,Los Angeles Lakers,42,30,.583,Lost W. Conf. 1st Rnd.,F. Vogel (42-30),M. Harrell
+2021-22,NBA,Los Angeles Lakers,33,49,.402,,F. Vogel (33-49),L. James
