@@ -35,9 +35,9 @@ class RequestHandler(Thread):
         return: The data for the given team in the given year.  If no data is
                 found, None is returned.
         """
-        team_data = self.cache[req.team]
-        matches = (x for x in team_data if req==x)
         try:
+            team_data = self.cache[req.team]
+            matches = (x for x in team_data if req==x)
             return next(matches)
-        except StopIteration:
+        except:
             return None
