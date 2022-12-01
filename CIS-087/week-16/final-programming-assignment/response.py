@@ -13,6 +13,11 @@ class Response:
             self.data = season_info
 
     def __str__(self):
+        """
+        Convert info into a string for easier transference between the
+        client and server.
+        return: A string representation of the response object.
+        """
         return "%d,%s,%s,%s,%s,%s,%s,%s,%s,%s" \
                     % ( self.version,
                         self.data.year,

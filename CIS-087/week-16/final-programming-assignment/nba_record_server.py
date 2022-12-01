@@ -13,19 +13,21 @@ from time import ctime
 from season_data import SeasonData
 from request_handler import RequestHandler
 
+# CONSTANTS
 DATA_DIR = "data-dir"
 HOST = "localhost"
 PORT = 32124
 ADDRESS = (HOST, PORT)
 BACKLOG_ALLOWED = 25
 
+# NOT TECHNICALLY A CONSTANT - ALLOWS EXITING SERVER FROM COMMAND LINE
 STOP_SERVER = False
 
 def team_from_filename(filename: str):
     """
     Record data is stored in the data directory in the format <team name>.csv
     :param filename: Name of file found in data directory.
-    :return:
+    :return: name of the team (as used in dictionary)
     """
     dot_idx = filename.index(".")
     teamname = filename[0:dot_idx].lower().capitalize()
@@ -86,6 +88,10 @@ class NbaRecordServerListener(Thread):
             req_handler.start()
 
 class QuitThread(Thread):
+    """
+    A Thread to allow graceful termination of the server after the next request
+    is processed.
+    """
     def __init__(self):
         Thread.__init__(self)
 
@@ -95,9 +101,11 @@ class QuitThread(Thread):
         STOP_SERVER = True
 
 def main():
+    # Graceful termination thread.
     qt = QuitThread()
     qt.start()
 
+    # Thread to listen for new requests.
     listener = NbaRecordServerListener()
     listener.start()
 

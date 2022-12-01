@@ -19,6 +19,12 @@ class Request:
         self.year = year
 
     def __eq__(self,other):
+        """
+        Allows equality check between a user's request and the data in
+        a SeasonData object.
+        param other: item to compare myself to.
+        return: True if there is a match, false if not.
+        """
         if type(other) == Request:
             return self.protocol_version == other.protocol_version and \
                    self.team_name == other.team_name and \
