@@ -1,5 +1,24 @@
+"""
+Author:  Jeff Alkire
+Date:    Nov 30, 2022
+Purpose: Data structure to contain all relevant portions of the server's
+         response to a data request.
+"""
 
 from season_data import SeasonData
+
+def build_response_from_message(user_request: str):
+    """
+    Given a comma separated message, build a response object.
+    :param user_request:  The message is csv format
+    :return: the data as a SeasonData object
+    """
+    entries = user_request.split(",")
+    entries.pop(0)
+    message = ",".join(entries)
+    if message==",,,,,,,,":
+        message="Data,,not,Available,,,,,,"
+    return SeasonData(message)
 
 class Response:
     """

@@ -1,11 +1,15 @@
-
-
+"""
+Author:  Jeff Alkire
+Date:    Nov 30, 2022
+Purpose: Data structure to contain all relevant portions of a single basketball season.
+"""
 
 class SeasonData:
     """
     Stores all data about a single season for a single team.
     """
     def __init__(self, line_from_csv_file):
+        print( line_from_csv_file )
         entries = line_from_csv_file.split(",")
         # Prune /n off end of each line
         entries[8] = entries[8][:-1]

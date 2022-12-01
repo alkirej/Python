@@ -16,7 +16,7 @@ from request_handler import RequestHandler
 # CONSTANTS
 DATA_DIR = "data-dir"
 HOST = "localhost"
-PORT = 32124
+PORT = 32123
 ADDRESS = (HOST, PORT)
 BACKLOG_ALLOWED = 25
 

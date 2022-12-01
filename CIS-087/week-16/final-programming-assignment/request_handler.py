@@ -1,7 +1,12 @@
+"""
+Author:  Jeff Alkire
+Date:    Nov 30, 2022
+Purpose: Thread to handle a user request.
+"""
 from codecs import decode
 from threading import Thread
 
-from request import Request
+from request import Request, build_request_from_message
 from response import Response
 
 BUFSIZE = 1024
@@ -19,7 +24,7 @@ class RequestHandler(Thread):
     def run(self):
         """Process single request and send response."""
         user_request = decode(self.client.recv(BUFSIZE), "ascii").split()
-        request = Request(user_request[0])
+        request = build_request_from_message(user_request[0])
         season_data = self.process(request)
         text_response = str(Response(season_data)) + "\n"
         self.client.send(bytes(text_response,"ascii"))

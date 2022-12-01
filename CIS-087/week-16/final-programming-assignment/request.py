@@ -1,13 +1,26 @@
+"""
+Author:  Jeff Alkire
+Date:    Nov 30, 2022
+Purpose: Data structure to contain all relevant portions of a information request.
+"""
 
 from season_data import SeasonData
+
+def build_request_from_message(user_request: str):
+    """
+    Given a user request in comma separated value format, build a request object.
+    :param user_request: string version
+    :return: request object version
+    """
+    entries = user_request.split(",")
+    return Request( entries[1],entries[2])
 
 class Request:
     """
     Stores all data about a single season for a single team.
     """
-    def __init__(self, user_request: str):
-        entries = user_request.split(",")
-        self.init_data( entries[0],entries[1],entries[2])
+    def __init__(self,team,year):
+        self.init_data(1,team,year)
 
     def init_data(self,
                   protocol_version,
@@ -17,6 +30,10 @@ class Request:
         self.version = protocol_version
         self.team = team_name
         self.year = year
+
+    def __str__(self):
+        """ Convert request to a csv string """
+        return "%d,%s,%s" % (1,self.team,self.year)
 
     def __eq__(self,other):
         """
