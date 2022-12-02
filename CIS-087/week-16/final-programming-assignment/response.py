@@ -16,7 +16,8 @@ def build_response_from_message(user_request: str):
     entries = user_request.split(",")
     entries.pop(0)
     message = ",".join(entries)
-    if message==",,,,,,,,":
+
+    if message[0]=="" or message[0]==",":
         message="Data,,not,Available,,,,,,"
     return SeasonData(message)
 
